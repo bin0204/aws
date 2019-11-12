@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title id='Description'>EC2_LIST</title>
+    <link rel="stylesheet" href="stylesheets/jqx.base.css" type="text/css" />
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="javascripts/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="javascripts/jqxcore.js"></script>
+    <script type="text/javascript" src="javascripts/jqxdata.js"></script>
+    <script type="text/javascript" src="javascripts/jqxbuttons.js"></script>
+    <script type="text/javascript" src="javascripts/jqxscrollbar.js"></script>
+    <script type="text/javascript" src="javascripts/jqxmenu.js"></script>
+    <script type="text/javascript" src="javascripts/jqxgrid.js"></script>
+    <script type="text/javascript" src="javascripts/jqxgrid.selection.js"></script>
+    <script>
+    $(document).ready(function () {
+            // prepare the data
+            var source =
+            {
+                url: 'lists', //locahost:4500/lists
+                datatype: "json"
+            };
+            var dataAdapter = new $.jqx.dataAdapter(source, {
+                loadComplete: function (data) { },
+                loadError: function (xhr, status, error) { }
+            });
+
+            $("#jqxgrid").jqxGrid(
+            {
+                source: dataAdapter,
+                columns: [
+                  { text: 'instanceType', datafield: 'instanceType', width: 100 },
+                  { text: 'instanceId', datafield: 'instanceId', width: 150 },
+                  { text: 'imageId', datafield: 'imageId', width: 150 },
+                  { text: 'keyName', datafield: 'keyName', width: 100},
+                  { text: 'privateIp', datafield: 'privateIp', width: 100},
+                  { text: 'az', datafield: 'az', width: 120}
+                ]
+            });
+        });
+    </script>
+</head>
+<body class='default'>
+    <div id='jqxWidget' style="font-size: 13px; font-family: Verdana; float: left;">
+        <div id="jqxgrid"></div>
+    </div>
+</body>
+</html>

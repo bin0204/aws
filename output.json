@@ -1,0 +1,202 @@
+[
+  {
+  "instanceType": "c5.large",
+  "instanceId": "i-0e669384f49dd1254",
+  "imageId": "ami-00dc207f8ba6dc919",
+  "keyName": "key-hybrid",
+  "privateIp": "10.0.10.10",
+  "az": "ap-northeast-2a"
+  },
+  {
+  "instanceType": "t2.micro",
+  "instanceId": "i-0b785015d61a9f5dc",
+  "imageId": "ami-0a10b2721688ce9d2",
+  "keyName": "key-wanis",
+  "privateIp": "10.1.4.11",
+  "az": "ap-northeast-2c"
+  },
+  {
+  "instanceType": "t2.micro",
+  "instanceId": "i-0425fde668c47d225",
+  "imageId": "ami-0a10b2721688ce9d2",
+  "keyName": "key-wanis",
+  "privateIp": "10.1.3.243",
+  "az": "ap-northeast-2a"
+  },
+  {
+  "instanceType": "t2.micro",
+  "instanceId": "i-0c2759eb0735c1cde",
+  "imageId": "ami-0bf4616d1daefedd3",
+  "keyName": "key-hybrid",
+  "privateIp": "10.0.39.47",
+  "az": "ap-northeast-2a"
+  },
+  {
+  "instanceType": "t2.micro",
+  "instanceId": "i-03c4934669ea7bad5",
+  "imageId": "ami-bf9c36d1",
+  "keyName": "key-hybrid",
+  "privateIp": "10.0.1.31",
+  "az": "ap-northeast-2a"
+  },
+  {
+  "instanceType": "t2.large",
+  "instanceId": "i-03777303a25113b83",
+  "imageId": "ami-be57e3d0",
+  "keyName": "key-hybrid",
+  "privateIp": "10.0.100.4",
+  "az": "ap-northeast-2a"
+  },
+  {
+  "instanceType": "t2.micro",
+  "instanceId": "i-0eab3074e25edaaca",
+  "imageId": "ami-0e1e385b0a934254a",
+  "keyName": "ubuntu_test",
+  "privateIp": "10.101.1.152",
+  "az": "ap-northeast-2a"
+  },
+  {
+  "instanceType": "t2.micro",
+  "instanceId": "i-012e27a3ef1f020ff",
+  "imageId": "ami-069e7b1c1551c3349",
+  "keyName": "key-hybrid",
+  "privateIp": "10.50.191.38",
+  "az": "ap-northeast-2a"
+  },
+  {
+  "instanceType": "t2.micro",
+  "instanceId": "i-05f56c13940a3f144",
+  "imageId": "ami-06cf2a72dadf92410",
+  "keyName": "key-hybrid",
+  "privateIp": "10.0.205.20",
+  "az": "ap-northeast-2a"
+  },
+  {
+  "instanceType": "t2.micro",
+  "instanceId": "i-0fe18f63d160b2d93",
+  "imageId": "ami-0a10b2721688ce9d2",
+  "keyName": "key-wanis",
+  "privateIp": "10.10.0.11",
+  "az": "ap-northeast-2a"
+  },
+  {
+  "instanceType": "m4.xlarge",
+  "instanceId": "i-0fe2af6fc78b0106f",
+  "imageId": "ami-0566141c898e243fc",
+  "keyName": "key-hybrid",
+  "privateIp": "10.101.3.11",
+  "az": "ap-northeast-2c"
+  },
+  {
+  "instanceType": "t2.micro",
+  "instanceId": "i-06fb6cdaf84fdb362",
+  "imageId": "ami-0a10b2721688ce9d2",
+  "keyName": "key-wanis",
+  "privateIp": "10.1.3.11",
+  "az": "ap-northeast-2a"
+  },
+  {
+  "instanceType": "t2.micro",
+  "instanceId": "i-0b87681e906810a50",
+  "imageId": "ami-09b2a09265eb4d5aa",
+  "keyName": "key-hybrid",
+  "privateIp": "10.0.10.30",
+  "az": "ap-northeast-2a"
+  },
+  {
+  "instanceType": "t2.micro",
+  "instanceId": "i-0b9d963562e311d15",
+  "imageId": "ami-bf9c36d1",
+  "keyName": "key-hybrid",
+  "privateIp": "10.0.10.20",
+  "az": "ap-northeast-2a"
+  },
+  {
+  "instanceType": "t2.micro",
+  "instanceId": "i-058c2a5ea166b8d8a",
+  "imageId": "ami-0ae4b4c2f55b48613",
+  "keyName": "key-hybrid",
+  "privateIp": "10.0.1.101",
+  "az": "ap-northeast-2a"
+  },
+  {
+  "instanceType": "m4.xlarge",
+  "instanceId": "i-0f284808087d3b9c9",
+  "imageId": "ami-0e8e239b8b61bdc29",
+  "keyName": "key-hybrid",
+  "privateIp": "10.101.1.11",
+  "az": "ap-northeast-2a"
+  },
+  {
+  "instanceType": "c4.large",
+  "instanceId": "i-0af7c9cb739638642",
+  "imageId": "ami-4308a62d",
+  "keyName": "key-hybrid",
+  "privateIp": "10.0.100.3",
+  "az": "ap-northeast-2a"
+  },
+  {
+  "instanceType": "t2.micro",
+  "instanceId": "i-0d1b0f4456dc0230c",
+  "imageId": "ami-069e7b1c1551c3349",
+  "keyName": "key-hybrid",
+  "privateIp": "10.50.191.158",
+  "az": "ap-northeast-2a"
+  },
+  {
+  "instanceType": "r4.large",
+  "instanceId": "i-0f3824b13a8a02d1c",
+  "imageId": "ami-4308a62d",
+  "keyName": "key-hybrid",
+  "privateIp": "10.0.100.2",
+  "az": "ap-northeast-2a"
+  },
+  {
+  "instanceType": "c4.8xlarge",
+  "instanceId": "i-05ddc45d945f18ed9",
+  "imageId": "ami-49bd1127",
+  "keyName": "key-hybrid",
+  "privateIp": "10.0.58.104",
+  "az": "ap-northeast-2a"
+  },
+  {
+  "instanceType": "m4.xlarge",
+  "instanceId": "i-056a6e2386dff181e",
+  "imageId": "ami-0e8e239b8b61bdc29",
+  "keyName": "key-hybrid",
+  "privateIp": "10.50.191.4",
+  "az": "ap-northeast-2a"
+  },
+  {
+  "instanceType": "t2.micro",
+  "instanceId": "i-0a411ef6602020f4e",
+  "imageId": "ami-00cda273ecf46d99e",
+  "keyName": "key-wanis",
+  "privateIp": "10.1.1.100",
+  "az": "ap-northeast-2a"
+  },
+  {
+  "instanceType": "t2.micro",
+  "instanceId": "i-04ee338287e1e059e",
+  "imageId": "ami-05d7911c701557f98",
+  "keyName": "key-hybrid",
+  "privateIp": "10.0.0.12",
+  "az": "ap-northeast-2a"
+  },
+  {
+  "instanceType": "t2.micro",
+  "instanceId": "i-04b9abd5b7755f206",
+  "imageId": "ami-bf9c36d1",
+  "keyName": "key-hybrid",
+  "privateIp": "10.0.1.21",
+  "az": "ap-northeast-2a"
+  },
+  {
+  "instanceType": "t2.micro",
+  "instanceId": "i-0ad8ac07b45026544",
+  "imageId": "ami-00dc8ef56b733f3dc",
+  "keyName": "key-hybrid",
+  "privateIp": "10.0.1.11",
+  "az": "ap-northeast-2a"
+  }
+]
